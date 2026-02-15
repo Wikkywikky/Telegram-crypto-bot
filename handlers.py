@@ -202,7 +202,8 @@ def register(app):
     app.add_handler(CommandHandler("buy", buy))
     app.add_handler(CommandHandler("sell", sell))
     app.add_handler(CommandHandler("toggle", toggle_feature))
-    app.add_handler(CommandHandler("withdraw", withdraw_start))                                                                                                                                                          app.add_handler(CommandHandler("cancel", cancel))
+    app.add_handler(CommandHandler("withdraw", withdraw_start))
+    app.add_handler(CommandHandler("cancel", cancel))
     app.add_handler(CommandHandler("setmaintenance", maintenance_set))
     app.add_handler(CommandHandler("stopmaintenance", maintenance_stop))
 
