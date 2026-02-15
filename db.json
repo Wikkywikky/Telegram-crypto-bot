@@ -1,0 +1,115 @@
+{
+  "users": {
+    "6951777893": {
+      "balance": 280674,
+      "wallet": null
+    }
+  },
+  "topups": {
+    "1": {
+      "user_id": "6951777893",
+      "amount": 1000000,
+      "method": "OVO",
+      "sender_name": "Wikky",
+      "bukti": "AgACAgUAAxkBAAITVGmQGziEsGY3MO13EaWSHnMAAXhbHQACMw1rGxuEgFRtWWPhfO-OAgEAAwIAA3kAAzoE",
+      "status": "approved",
+      "created": "2026-02-14T13:50:32.449130",
+      "approved_by": "5720426850",
+      "approved_at": "2026-02-14T13:50:43.827312"
+    },
+    "2": {
+      "user_id": "6951777893",
+      "amount": 15100,
+      "method": "OVO",
+      "sender_name": "Wikky",
+      "bukti": "AgACAgUAAxkBAAISHWmPyZ-ARW30ipZXhQQ66j4RZ-NaAAJzDGsbG4SAVIp7xAO66R39AQADAgADeQADOgQ",
+      "status": "approved",
+      "created": "2026-02-14T14:43:13.076446",
+      "approved_by": "5720426850",
+      "approved_at": "2026-02-14T14:43:21.121958"
+    }
+  },
+  "withdraws": {
+    "1": {
+      "user_id": "6951777893",
+      "amount": 500000,
+      "method": "GOPAY",
+      "target": "3677534790",
+      "name": "Wikky",
+      "status": "need_fix_name",
+      "fix_requested_by": "5720426850",
+      "fix_requested_at": "2026-02-14T13:52:07.177708"
+    },
+    "2": {
+      "user_id": "6951777893",
+      "amount": 510753,
+      "method": "DANA",
+      "target": "63883578920",
+      "name": "Wikky",
+      "status": "approved",
+      "approved_by": "5720426850",
+      "approved_at": "2026-02-14T14:41:54.588251"
+    },
+    "3": {
+      "user_id": "6951777893",
+      "amount": 20000,
+      "method": "DANA",
+      "target": "63636373782828",
+      "name": "Wikky",
+      "status": "approved",
+      "approved_by": "5720426850",
+      "approved_at": "2026-02-14T15:04:55.238376"
+    },
+    "4": {
+      "user_id": "6951777893",
+      "amount": 20000,
+      "method": "BCA",
+      "target": "7272772891",
+      "name": "Wikku",
+      "status": "approved",
+      "approved_by": "5720426850",
+      "approved_at": "2026-02-14T15:17:18.684886"
+    },
+    "5": {
+      "user_id": "6951777893",
+      "amount": 15000,
+      "method": "GOPAY",
+      "target": "849392982892",
+      "name": "Wikky",
+      "status": "approved",
+      "approved_by": "5720426850",
+      "approved_at": "2026-02-15T02:09:45.627687"
+    }
+  },
+  "orders": {},
+  "maintenance": null,
+  "_used_tx": {
+    "0x01676c8476bf12cc57bb7a62c8695cf5637df5ebedad3342dfe55d6345c6f4b4": {
+      "uid": "6951777893",
+      "time": "2026-02-14T14:40:13.955739",
+      "gross": 35753,
+      "fee": 5000,
+      "net": 30753
+    },
+    "0xa46ee35fd0ca3db3008f9d6c8957f993643f4936de07718ed226b4aeb20eee80": {
+      "uid": "6951777893",
+      "token": "ETH",
+      "network": "ARB",
+      "amount_token": 0.001,
+      "gross": 35078,
+      "fee": 5000,
+      "net": 30078,
+      "time": "2026-02-15T02:01:33.949625"
+    },
+    "0x4c48d268bdd219a4790120d3f1208919f72771e1b63ce1119047897bcd30bea2": {
+      "uid": "6951777893",
+      "token": "ETH",
+      "network": "ARB",
+      "amount_token": 0.0010112,
+      "gross": 35496,
+      "fee": 5000,
+      "net": 30496,
+      "time": "2026-02-15T02:08:29.247020"
+    }
+  }
+}
